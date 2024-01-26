@@ -1,0 +1,70 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    /* padding:30px; */
+}
+
+.navBarTitle {
+    flex:row;
+    padding: 10px;
+}
+
+.navBarItemHolder {
+    display:flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    align-items: center;    
+}
+
+
+.navBarItem{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+
+.rowLeft{
+    /* flex:1; */
+    align-items: start;
+    flex-direction: row;
+    
+    padding-left:20px;
+}
+
+.rowRight{
+    display: flex;
+    flex-basis:end ;
+    flex-direction: row;
+
+    /* flex:1; */
+    align-items: center end;
+    margin-left: 55%;
+}
+
+.header{
+    /* flex:1; */
+    align-items: center;
+}
+
+.divSpacer{
+    padding:20px;
+}
+.navBarSpacer{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.boxRed{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+}
+
+.boxBlue{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
